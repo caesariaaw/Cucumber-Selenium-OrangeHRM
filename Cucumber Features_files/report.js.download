@@ -1,0 +1,1335 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Login.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Activity Login",
+  "description": "",
+  "id": "activity-login",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Login"
+    }
+  ]
+});
+formatter.before({
+  "duration": 6294232300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "User unsuccessfully log in",
+  "description": "",
+  "id": "activity-login;user-unsuccessfully-log-in",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@negativeLogin"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "User on the login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User input authorization using \"Adminss\" as Xusername \u0026 \"s3Kol4HQA!*\" as Xpassword",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User click on the LogIn button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User unsuccesfully log in and get \"Invalid credential\" as errormessage on screen",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStep.xVisitLoginPage()"
+});
+formatter.result({
+  "duration": 918188900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Adminss",
+      "offset": 32
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 57
+    }
+  ],
+  "location": "LoginStep.inputXCredential(String,String)"
+});
+formatter.result({
+  "duration": 214031900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.xLoginButtonClick()"
+});
+formatter.result({
+  "duration": 1247817800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.UnsuccessfulLogIn()"
+});
+formatter.result({
+  "duration": 38976300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 765164200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3520695700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "User successfully log in",
+  "description": "",
+  "id": "activity-login;user-successfully-log-in",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@positiveLogin"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User on OrangeHRM login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User input authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "User click Log in button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "User succesfully log in and goes to home page of OrangeHRM",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStep.visitLoginPage1()"
+});
+formatter.result({
+  "duration": 280826400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 32
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 54
+    }
+  ],
+  "location": "LoginStep.inputCredential(String,String)"
+});
+formatter.result({
+  "duration": 238007000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.loginButtonClick()"
+});
+formatter.result({
+  "duration": 7028095000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.homePageResult1()"
+});
+formatter.result({
+  "duration": 56347500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 695884400,
+  "status": "passed"
+});
+formatter.uri("features/PIMPage.feature");
+formatter.feature({
+  "line": 2,
+  "name": "User can add new employee and search employee",
+  "description": "",
+  "id": "user-can-add-new-employee-and-search-employee",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@PIM"
+    }
+  ]
+});
+formatter.before({
+  "duration": 3515907800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "add and complete data of employee",
+  "description": "",
+  "id": "user-can-add-new-employee-and-search-employee;add-and-complete-data-of-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@addEmployee"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "User 10 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User 10 click PIM button \u0026 click add employee button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User input \"winnie\" as firstName \u0026 input \"the\" as middleName \u0026 input \"pooh\" as lastName \u0026 input \"00192\" as id_Employee \u0026 click checkBox",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User input \"winiedelalapo\" as unameEmploy \u0026 input \"s3Kol4HQA!*\" as passEmploy \u0026 input \"s3Kol4HQA!*\" as rePassEmploy \u0026 click save btn \u0026 click edit btn",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User input \"98882102125\" as SIMNumb \u0026 click genderChckBox \u0026 select nationality \u0026 input \"327222102990000\" as otherID \u0026 input \"2024-05-21\" as SIMExpDate \u0026 select marital status \u0026 input \"1999-05-21\" as BirthDate \u0026 click save btn",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User succesfully add employee",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 46
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 68
+    }
+  ],
+  "location": "PIMStep.visitLoginPagee(String,String)"
+});
+formatter.result({
+  "duration": 6137028200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PIMStep.goToAddEmployee()"
+});
+formatter.result({
+  "duration": 3651476900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "winnie",
+      "offset": 12
+    },
+    {
+      "val": "the",
+      "offset": 42
+    },
+    {
+      "val": "pooh",
+      "offset": 70
+    },
+    {
+      "val": "00192",
+      "offset": 97
+    }
+  ],
+  "location": "PIMStep.inputEmployeeData1(String,String,String,String)"
+});
+formatter.result({
+  "duration": 1121441600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "winiedelalapo",
+      "offset": 12
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 51
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 87
+    }
+  ],
+  "location": "PIMStep.inputEmployeeData2(String,String,String)"
+});
+formatter.result({
+  "duration": 6751670800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "98882102125",
+      "offset": 12
+    },
+    {
+      "val": "327222102990000",
+      "offset": 88
+    },
+    {
+      "val": "2024-05-21",
+      "offset": 125
+    },
+    {
+      "val": "1999-05-21",
+      "offset": 184
+    }
+  ],
+  "location": "PIMStep.inputEmployeeData3(String,String,String,String)"
+});
+formatter.result({
+  "duration": 8537244200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PIMStep.successfulAddEmployee()"
+});
+formatter.result({
+  "duration": 43136900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 737328300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4172768400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "search employee",
+  "description": "",
+  "id": "user-can-add-new-employee-and-search-employee;search-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@searchEmployee"
+    }
+  ]
+});
+formatter.step({
+  "line": 15,
+  "name": "User 11 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 16,
+  "name": "User 11 click PIM button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "User input \"kim jong un\" as fullName \u0026 select include employe \u0026 click search btn",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "User get employee on the list",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 46
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 68
+    }
+  ],
+  "location": "PIMStep.VisitLoginPage3(String,String)"
+});
+formatter.result({
+  "duration": 5720589100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PIMStep.goToSearchEmployee()"
+});
+formatter.result({
+  "duration": 1687135300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "kim jong un",
+      "offset": 12
+    }
+  ],
+  "location": "PIMStep.inputSearchData(String)"
+});
+formatter.result({
+  "duration": 1020947800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PIMStep.successfulGetEmployee()"
+});
+formatter.result({
+  "duration": 68669200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 692090300,
+  "status": "passed"
+});
+formatter.uri("features/adminPage.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Search add and delete data on Admin Page",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Admin"
+    }
+  ]
+});
+formatter.before({
+  "duration": 4038857000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 6,
+  "name": "Add new user data",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page;add-new-user-data",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@AddData"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "User 1 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "User 1 click Admin button and click add button to go to add user page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "User select Admin as role \u0026 input \"kim jong un\" as employeeUserName \u0026 input \"TinyWiniBity\" as userName \u0026 input \"s3Kol4HQA!*\" as userPassword \u0026 input \"s3Kol4HQA!*\" as userRePass \u0026 click save button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User succesfully add new user data",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.VisitLoginPage2(String,String)"
+});
+formatter.result({
+  "duration": 3741225200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.goToAdminPageToAddUser()"
+});
+formatter.result({
+  "duration": 3388060700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "kim jong un",
+      "offset": 35
+    },
+    {
+      "val": "TinyWiniBity",
+      "offset": 77
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 112
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 150
+    }
+  ],
+  "location": "AdminStep.inputCredentialToAddUser(String,String,String,String)"
+});
+formatter.result({
+  "duration": 680901700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.userSuccessfullAddNewUser()"
+});
+formatter.result({
+  "duration": 20043763700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 707688000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4720337600,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "User verify user data entered exist",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page;user-verify-user-data-entered-exist",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 12,
+      "name": "@SearchData"
+    }
+  ]
+});
+formatter.step({
+  "line": 14,
+  "name": "User 2 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 15,
+  "name": "User 2 click Admin button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 16,
+  "name": "User input \"TinyWiniBity\" as userName \u0026 click search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "User get user data on the list",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.VisitLoginPage3(String,String)"
+});
+formatter.result({
+  "duration": 5724639800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.goToAdminPageSearchToUser()"
+});
+formatter.result({
+  "duration": 1711356800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "TinyWiniBity",
+      "offset": 12
+    }
+  ],
+  "location": "AdminStep.inputCredentialToSearchUser(String)"
+});
+formatter.result({
+  "duration": 686910700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.GetUser()"
+});
+formatter.result({
+  "duration": 23042200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 715556700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4802607500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "User looking for random data",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page;user-looking-for-random-data",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@SearchRandomData"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "User 3 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 22,
+  "name": "Users 3 click Admin button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "User input \"rere\" as xUserNamee \u0026 click search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "User get notFoundMessage on the list",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.VisitLoginPage4(String,String)"
+});
+formatter.result({
+  "duration": 5660995000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.goToAdminPageSearchToXUser()"
+});
+formatter.result({
+  "duration": 1751459300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "rere",
+      "offset": 12
+    }
+  ],
+  "location": "AdminStep.inputCredentialToSearchXUser(String)"
+});
+formatter.result({
+  "duration": 593015100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.xGetUser()"
+});
+formatter.result({
+  "duration": 37205300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 727724600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3564576000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "User register OAuth client",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page;user-register-oauth-client",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 27,
+      "name": "@regOAuthClient"
+    }
+  ]
+});
+formatter.step({
+  "line": 29,
+  "name": "User 4 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 30,
+  "name": "User 4 click Admin button \u0026 click configuration button \u0026 click register OAuth client button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 31,
+  "name": "User input \"rere\" as oAuthId \u0026 input \"123\" as oAuthSecret \u0026 input \"[ https://orangehrm.github.io/orangehrm-api-doc ].\" as oAuthUrl \u0026 click button save",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "User successfully register OAuth client",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.VisitLoginPage5(String,String)"
+});
+formatter.result({
+  "duration": 5048443300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.userGoToRegOAuthClient()"
+});
+formatter.result({
+  "duration": 2892000700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "rere",
+      "offset": 12
+    },
+    {
+      "val": "123",
+      "offset": 38
+    },
+    {
+      "val": "[ https://orangehrm.github.io/orangehrm-api-doc ].",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.inputCredentialToRegOAuthClient(String,String,String)"
+});
+formatter.result({
+  "duration": 863814900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.successfullyRegisterOAuthClient()"
+});
+formatter.result({
+  "duration": 55295700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 684906900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3470741700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 35,
+  "name": "User delete OAuth client data",
+  "description": "",
+  "id": "search-add-and-delete-data-on-admin-page;user-delete-oauth-client-data",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 34,
+      "name": "@deleteOAuthClient"
+    }
+  ]
+});
+formatter.step({
+  "line": 36,
+  "name": "User 5 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 37,
+  "name": "User 5 click Admin button \u0026 click configuration button \u0026 click register OAuth client button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 38,
+  "name": "User click one of data to be delete \u0026 click ok button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "User successfully delete OAuth client data",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "AdminStep.VisitLoginPage6(String,String)"
+});
+formatter.result({
+  "duration": 3867879700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.goToConfigAdminPageToDeleteOAuthClient()"
+});
+formatter.result({
+  "duration": 3129528900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.selectOAuthClientToBeDelete()"
+});
+formatter.result({
+  "duration": 1136415300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AdminStep.successfullyDeleteOAuthClient()"
+});
+formatter.result({
+  "duration": 29562500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 705268700,
+  "status": "passed"
+});
+formatter.uri("features/leavePage.feature");
+formatter.feature({
+  "line": 2,
+  "name": "User can Assign \u0026 search Leave",
+  "description": "",
+  "id": "user-can-assign-\u0026-search-leave",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Leave"
+    }
+  ]
+});
+formatter.before({
+  "duration": 4478646700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "User  failed to assign leave",
+  "description": "",
+  "id": "user-can-assign-\u0026-search-leave;user--failed-to-assign-leave",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@assignLeave"
+    },
+    {
+      "line": 4,
+      "name": "@negativeLeave"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "User 6 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User 6 click leave button \u0026 assign leave button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User input \"rere\" as xEmployeeNameToLeave \u0026 select leave type \u0026 input \"2021-05-28\" as leaveFromDate \u0026 select partialDays \u0026 input \"2021-05-28\" as leaveToDate \u0026 input \"mudik\" as commentLeave \u0026 click assign button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User cant assign leave and get error Message bellow employee name",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "leaveStep.VisitLoginPage4(String,String)"
+});
+formatter.result({
+  "duration": 6154626500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.goToAssignLeave1()"
+});
+formatter.result({
+  "duration": 6258015400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "rere",
+      "offset": 12
+    },
+    {
+      "val": "2021-05-28",
+      "offset": 71
+    },
+    {
+      "val": "2021-05-28",
+      "offset": 130
+    },
+    {
+      "val": "mudik",
+      "offset": 166
+    }
+  ],
+  "location": "leaveStep.inputFailedAssign(String,String,String,String)"
+});
+formatter.result({
+  "duration": 1095538800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.UnsuccessfulAssignLeave()"
+});
+formatter.result({
+  "duration": 52593500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 741897300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3984075200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "User successfully assign leave",
+  "description": "",
+  "id": "user-can-assign-\u0026-search-leave;user-successfully-assign-leave",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@assignLeave"
+    },
+    {
+      "line": 11,
+      "name": "@positiveLeave"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User 7 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User 7 click leave button \u0026 assign leave button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "User input \"Admin QA Cilsy\" as employeeNameToLeave \u0026 select leave type \u0026 input \"2021-06-23\" as leaveFromDate \u0026 input \"2021-06-23\" as leaveToDate \u0026 select partial days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "User User select duration days \u0026 select time from \u0026 select time to \u0026 input \"mudik\" as commentLeave \u0026 click assign button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "User successfully assign leave",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "leaveStep.VisitLoginPage5(String,String)"
+});
+formatter.result({
+  "duration": 4777187500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.goToAssignLeave2()"
+});
+formatter.result({
+  "duration": 3770845200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin QA Cilsy",
+      "offset": 12
+    },
+    {
+      "val": "2021-06-23",
+      "offset": 80
+    },
+    {
+      "val": "2021-06-23",
+      "offset": 118
+    }
+  ],
+  "location": "leaveStep.inputAssignLeave(String,String,String)"
+});
+formatter.result({
+  "duration": 785828600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "mudik",
+      "offset": 76
+    }
+  ],
+  "location": "leaveStep.InputAssignLeaveSpecified(String)"
+});
+formatter.result({
+  "duration": 4603852100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.successfulAssignLeave()"
+});
+formatter.result({
+  "duration": 29870100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 722181800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3794810900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "User search leave on the list",
+  "description": "",
+  "id": "user-can-assign-\u0026-search-leave;user-search-leave-on-the-list",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@searchLeave"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "User 8 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 22,
+  "name": "User 8 click leave button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "User click check all status leave \u0026 input \"kim jong un\" as fullNameLeave \u0026 click search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "User get the result on leave list",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "leaveStep.VisitLoginPage6(String,String)"
+});
+formatter.result({
+  "duration": 6322241500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.goToLeaveList()"
+});
+formatter.result({
+  "duration": 2373637000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "kim jong un",
+      "offset": 43
+    }
+  ],
+  "location": "leaveStep.inputCredentialToFindDataLeave(String)"
+});
+formatter.result({
+  "duration": 904942100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "leaveStep.getSuitableResultLeave()"
+});
+formatter.result({
+  "duration": 82341600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 729785000,
+  "status": "passed"
+});
+formatter.uri("features/timePage.feature");
+formatter.feature({
+  "line": 2,
+  "name": "user can punch in and punch out",
+  "description": "",
+  "id": "user-can-punch-in-and-punch-out",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Time"
+    }
+  ]
+});
+formatter.before({
+  "duration": 3943180300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "User successfully punch in \u0026 punch out",
+  "description": "",
+  "id": "user-can-punch-in-and-punch-out;user-successfully-punch-in-\u0026-punch-out",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@puncInOut"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "User 9 on homepage with authorization using \"Admin\" as username \u0026 \"s3Kol4HQA!*\" as password",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User 9 click time button \u0026 click attendance button \u0026 click punch in button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User input \"on time\" as punchInNote \u0026 click punch in button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User succesfully punch in",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User input \"return\" as punchOutNote \u0026 click punch out button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "User succesfully punch out",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Admin",
+      "offset": 45
+    },
+    {
+      "val": "s3Kol4HQA!*",
+      "offset": 67
+    }
+  ],
+  "location": "timeStep.VisitLoginPage8(String,String)"
+});
+formatter.result({
+  "duration": 5191592000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "timeStep.goToTimePunchInPage()"
+});
+formatter.result({
+  "duration": 2847300000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "on time",
+      "offset": 12
+    }
+  ],
+  "location": "timeStep.inputNotesToPunchIn(String)"
+});
+formatter.result({
+  "duration": 1585820800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "timeStep.successfulPunchIn()"
+});
+formatter.result({
+  "duration": 68924900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "return",
+      "offset": 12
+    }
+  ],
+  "location": "timeStep.clickPunchOut(String)"
+});
+formatter.result({
+  "duration": 1541318900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "timeStep.successfulPunchOut()"
+});
+formatter.result({
+  "duration": 48724600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 742570400,
+  "status": "passed"
+});
+});
